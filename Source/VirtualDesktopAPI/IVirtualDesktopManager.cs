@@ -6,8 +6,6 @@ namespace WindowsVirtualDesktopHelper.VirtualDesktopAPI {
 	public interface IVirtualDesktopManager {
 		uint Current();
 
-		int DisplayCount();
-
 		void SwitchForward();
 
 		void SwitchBackward();

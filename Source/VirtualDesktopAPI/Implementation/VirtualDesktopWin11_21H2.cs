@@ -72,10 +72,6 @@ namespace WindowsVirtualDesktopHelper.VirtualDesktopAPI.Implementation {
 			return desktopName;
 		}
 
-		public int DisplayCount() {
-			return DesktopManager.VirtualDesktopManagerInternal.GetCount(IntPtr.Zero);
-		}
-
 		#region COM Guids
 
 		internal static class Guids {
